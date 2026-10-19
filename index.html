@@ -5,6 +5,9 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="theme-color" content="#fffef9">
   <title>포켓몬 무한 퀴즈</title>
+  <!-- Pretendard 웹폰트(SIL OFL). 기기에 글꼴이 없어도 같은 모습으로 보이도록 CDN에서 불러온다. 다이내믹 서브셋: 쓰인 글자 조각만 내려받음 -->
+  <link rel="preconnect" href="https://cdn.jsdelivr.net" crossorigin>
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/orioncactus/pretendard@v1.3.9/dist/web/variable/pretendardvariable-dynamic-subset.min.css">
   <meta name="description" content="타입·기술·특성 단서로 포켓몬을 맞히는 5초 무한 퀴즈. 전국도감 1,025종과 포켓몬 챔피언즈 231종.">
   <!-- 공유 미리보기(OG). 이미지는 배포 주소 기준, 파일은 저장소 루트의 og.png -->
   <meta property="og:title" content="포켓몬 무한 퀴즈">
@@ -38,7 +41,7 @@
       --coral: #e45c51;
       --coral-soft: #fff0eb;
       --green: #2f5b49;
-      font-family: Pretendard, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      font-family: "Pretendard Variable", Pretendard, Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
     }
     * { box-sizing: border-box; }
     body { margin: 0; min-height: 100vh; color: var(--ink); background: radial-gradient(circle 320px at 88% 8%, #fceee7 0, transparent 75%), var(--paper); }
